@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #222;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.skills {
+    width: 100%;
+    max-width: 540px;
+}
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.progess-bar {
+    background-color: #959595;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progess-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progess-bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+}
+
+.html {
+    background-color: #e91e63;
+    animation: html 2s linear forwards;
+}
+@keyframes html {
+    100%{
+        width: 80%;
+    }
+}
+
+.html span {
+    border: 1px solid #e91e63;
+}
+
+.css {
+    background-color: #cddc39;
+    animation: css 2s linear forwards;
+}
+@keyframes css {
+    100%{
+        width: 70%;
+    }
+}
+
+.css span {
+    border: 1px solid #cddc39;
+}
+
+.javascript {
+    background-color: #00bcd4;
+    animation: javascript 2s linear forwards;
+}
+@keyframes javascript {
+    100%{
+        width: 40%;
+    }
+}
+
+.javascript span {
+    border: 1px solid #00bcd4;
+}
+
+.bootstrap {
+    background-color: #9e27b0;
+    animation: bootstrap 2s linear forwards;
+}
+@keyframes bootstrap {
+    100%{
+        width: 90%;
+    }
+}
+
+.bootstrap span {
+    border: 1px solid #9e27b0;
+}
+
+@media (max-width:425px) {
+    .skills{
+        max-width: 100%;
+    }
+}
